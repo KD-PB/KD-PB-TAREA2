@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Pizzas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Landing Page -->
+    <section id="landing" class="h-screen bg-red-600 flex flex-col items-center justify-center text-white text-center">
+        <h1 class="text-5xl font-bold mb-4">¡Bienvenidos a Punto Di-Pizzas!</h1>
+        <p class="text-xl mb-8">La mejor pizza de la ciudad de Trinidad, hecha con ingredientes frescos y amor.</p>
+        <a href="#menu" class="bg-white text-red-600 font-bold py-2 px-4 rounded-lg shadow-md hover:bg-gray-200 transition">Ver Menú</a>
+    </section>
+
+    <!-- Encabezado -->
+    <header class="bg-red-600 text-white py-4" id="menu">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Menú de Pizzas</h1>
+        </div>
+    </header>
+
+    <!-- Lista de Pizzas -->
+    <section class="py-8">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Pizza Clasica -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza1.jpg" alt="Pizza Clasica" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza Clasica</h2>
+                    <p class="text-gray-700">Clásica pizza con salsa de tomate, mozzarella y albahaca.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs50</p>
+                </div>
+
+                <!-- Pizza Pepperoni -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza2.jpg" alt="Pizza Pepperoni" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza Pepperoni</h2>
+                    <p class="text-gray-700">Deliciosa pizza con abundante pepperoni y queso mozzarella.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs55</p>
+                </div>
+
+                <!-- Pizza Cuatro Quesos -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza3.jpg" alt="Pizza Cuatro Quesos" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza Cuatro Quesos</h2>
+                    <p class="text-gray-700">Una combinación de cuatro quesos: mozzarella, gorgonzola, parmesano y ricotta.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs65</p>
+                </div>
+
+                <!-- Pizza Hawayana -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza4.jpg" alt="Pizza Hawayana" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza Hawayana</h2>
+                    <p class="text-gray-700">Una dulce mezcla de piña, jamón y queso mozzarella.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs50</p>
+                </div>
+
+                <!-- Pizza Vegetariana -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza5.jpg" alt="Pizza Vegetariana" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza Vegetariana</h2>
+                    <p class="text-gray-700">Cargada con verduras frescas como champiñones, pimientos y cebolla.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs45</p>
+                </div>
+
+                <!-- Pizza carbonara -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="pizza6.jpg" alt="Pizza carbonara" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h2 class="text-2xl font-bold mb-2">Pizza carbonara</h2>
+                    <p class="text-gray-700">Deliciosa pizza con pollo asado, salsa de tomate y queso cheddar.</p>
+                    <p class="text-red-600 font-bold text-xl mt-4">Bs60</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Punto Di-Pizzas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
